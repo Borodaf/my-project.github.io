@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bfec730d56.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="go-top">
+        <a href="#"><i class="fas fa-arrow-up"></i></a>
+    </div>
+
+      <!-- header section start -->
+
+      <header>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">О нас </a></li>
+                <li><a href="#services">Сервис</a></li>
+                <li><a href="#gallery">Туры</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <div class="home-content">
+                <h3>Туристическое агенство</h3>
+                <h2>Вояж-Тур</h2>
+                <h1></h1>
+                <a href="#" class="btn">Онлайн бронирование</a>
+            </div>
+        </div>
+
+      </header>
+      <record>
+        <div class="container">
+            <h1 >Запись на урок</h1>
+            <form action="#" method="POST">
+              <div class="form-group">
+                <label for="username">ФИО:</label>
+                <input type="text" id="fullname" name="fullname" required>
+              </div>
+        
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+        
+              <div class="form-group">
+                <label for="password">Телефон:</label>
+                <input type="phone" id="phone" name="phone" required>
+              </div>
+        
+              <div class="form-group">
+                <label for="confirm_password">Выберите направление:</label>
+                <select id="cars" name="cars">
+                    <option value="1">Акустическая гитара</option>
+                    <option value="2">Электрогитара</option>
+                    <option value="3">Вокал</option>
+                    <option value="4">Пианино</option>
+                  </select>
+              </div>
+              <div id="error-message" class="message error" style="display: none;">Ошибка при записи!</div>
+                <div id="success-message" class="message success" style="display: none;">Запись прошла успешно!</div>
+              <div class="form-group">
+                <button type="submit" href="#" class="btn btn-accent free__btn">Записаться</button>
+              </div>
+            </form>  
+        </div>
+    </record>
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <a href="#">Условия и конфидициальность</a>
+                <a href="#">Оферта</a>
+                <a href="#">xggsdgh</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
